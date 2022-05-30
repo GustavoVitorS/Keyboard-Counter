@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Titan One', cursive;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: table;
+  background-color: #181818;
+}
+
+#activity {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #c660c6
+}
+
+#activity:before {
+  content: "Pressione qualquer tecla do seu teclado para começar";
+  position: absolute;
+  top: -1;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: rgba(10, 10, 10, 10, 10);
+  color: #c660c6;
+}
+
+#activity:after {
+  content: "Contando qualquer tecla do seu teclado";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vh;
+  color: #c660c6
+}
+
+#result {
+  text-transform: uppercase;
+
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: bold;
+}
+
+.hits {
+  font-size: 5.75em;
+  font-weight: bolder;
+  border-left: 3px solid #c660c6;
+  border-right: 3px solid #540062;
+  border-top: 3px solid #540062;
+  border-bottom: 3px solid #540062;
+}
